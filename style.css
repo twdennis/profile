@@ -1,0 +1,100 @@
+body {
+background-color: #808a9f30;
+font-family: 'Bitter';
+color: #2c497fc2;
+font-size: 16px;
+line-height: 1.6;
+}
+
+h1 {
+color: #24385f;
+font-family: 'Raleway';
+font-weight: 800;
+line-height: 1.4;
+}
+
+h2 {
+  color: #79826f;
+  font-family: 'Raleway';
+  font-weight: 800;
+  line-height: 1.4;
+}
+h3 {
+  color: #79826f;
+  font-family: 'Raleway';
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+a {
+  color: #ab8f4e;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #736136;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+background-color: white;
+border-radius: 10px;
+text-align: center;
+padding: 40px;
+margin: 24px auto;
+width: 50%;
+box-shadow: 2px 5px 20px #00000083;
+}
+
+ #profile-img {
+  width: 100px;
+  height: 150px;
+  border-radius: 25px;
+  box-shadow: 2px 5px 20px #00000083;
+ }
+
+ .list-inline{
+  padding: 0;
+ }
+
+ .list-inline > li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+.btn-gold {
+  background-color: #ab8f4e;
+  color: whitesmoke;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.btn-gold:hover {
+  background-color: #736136;
+  color: whitesmoke;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
